@@ -32,7 +32,7 @@ const reply = (bodyResponse) => {
       messages: [
         {
           type: `text`,
-          text: bodyResponse.events[0].message.text + ' 5556666 from mac'
+          text: bodyResponse.events[0].message.text + ' 5556666 from mac with adding comment for new commit'
         }
 	  ]
     })
